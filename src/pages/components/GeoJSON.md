@@ -1,6 +1,7 @@
 # GeoJSON
 
 ## Basic usage
+
 ```example height:400
 <script>
     import {LeafletMap, GeoJSON, TileLayer} from 'svelte-leafletjs';
@@ -46,6 +47,6 @@ options | Options.             | Object(undefined)
 
 ## Methods
 
-| Name          | Description |
-|---------------|-------------|
+| Name         | Description                                                                                                      |
+| ------------ | ---------------------------------------------------------------------------------------------------------------- |
 | getGeoJSON() | Returns the underlying Leaflet `GeoJSON` object instance. See https://leafletjs.com/reference-1.7.1.html#geojson |

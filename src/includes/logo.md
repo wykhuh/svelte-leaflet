@@ -1,1 +1,1 @@
-# [svelte-leaflet](/) #
+# [svelte-leaflet](/)
