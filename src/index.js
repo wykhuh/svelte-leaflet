@@ -2,6 +2,7 @@ import LeafletMap from './components/LeafletMap.svelte';
 
 import Circle from './components/Circle.svelte';
 import CircleMarker from './components/CircleMarker.svelte';
+import EasyButton from './components/EasyButton.svelte';
 import GeoJSON from './components/GeoJSON.svelte';
 import Icon from './components/Icon.svelte';
 import ImageOverlay from './components/ImageOverlay.svelte';
@@ -24,6 +25,7 @@ export {
   LeafletMap,
   Circle,
   CircleMarker,
+  EasyButton,
   GeoJSON,
   Icon,
   ImageOverlay,
