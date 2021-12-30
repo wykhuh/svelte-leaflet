@@ -9,6 +9,7 @@ import ImageOverlay from './components/ImageOverlay.svelte';
 import LayerControl from './components/LayerControl.svelte';
 import Marker from './components/Marker.svelte';
 import MarkerCluster from './components/MarkerCluster.svelte';
+import MyPopup from './components/MyPopup.svelte';
 import Polyline from './components/Polyline.svelte';
 import Polygon from './components/Polygon.svelte';
 import Popup from './components/Popup.svelte';
@@ -32,6 +33,7 @@ export {
   LayerControl,
   Marker,
   MarkerCluster,
+  MyPopup,
   Polyline,
   Polygon,
   Popup,
