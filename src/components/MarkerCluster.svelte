@@ -14,15 +14,19 @@
   $: {
     if (markerCluster) {
       markerCluster.remove();
+      markerCluster = null;
     }
 
-    markerCluster = L.markerClusterGroup({ singleMarkerMode: true });
+    if (!markerCluster) {
+      markerCluster = L.markerClusterGroup({ singleMarkerMode: true }).addTo(getMap());
+    }
 
-    items.forEach((ob) => {
-      // BUG: circle marker does not work with singleMarkerMode
-      markerCluster.addLayer(L.marker([ob.latitude, ob.longitude]));
-    });
-    markerCluster.addTo(getMap());
+    if (items.length > 0) {
+      items.forEach((ob) => {
+        // BUG: circle marker does not work with singleMarkerMode
+        markerCluster.addLayer(L.marker([ob.latitude, ob.longitude]));
+      });
+    }
   }
 
   onDestroy(() => {
