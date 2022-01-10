@@ -4,7 +4,7 @@
 
 ```example height:400
 <script>
-    import {LeafletMap, TileLayer} from 'svelte-leafletjs';
+    import {LeafletMap, TileLayer} from '$lib/vendor/svelte-leaflet';
 
     const mapOptions = {
         center: [37.0902, -95.7129],

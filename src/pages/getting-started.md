@@ -39,6 +39,6 @@ import 'leaflet/dist/leaflet.css';
 
 ```html
 <script>
-  import LeafletMap from 'svelte-leafletjs';
+  import LeafletMap from '$lib/vendor/svelte-leaflet';
 </script>
 ```
